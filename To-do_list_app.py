@@ -40,7 +40,7 @@ Consider edge cases, such as empty task lists or incorrect user input.
 
 
 def add_task(to_do_list):
-  predefined_commands = {"add": "Has been added to the list.\n"}
+  predefined_commands = {"add": "Has been added to the list\n"}
 
   while True:
     print("Add Menu:\n1. Add to list.\n2. Main Menu\n3. More to come...")
